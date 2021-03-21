@@ -16,6 +16,11 @@ public class Player {
                 new WaterGun()
         };
     }
+
+    public Weapon[] getWeapon() {
+        return  weaponSlots;
+    }
+
     //Размер арсенала игрока
     public int getSlotsCount() {
         return weaponSlots.length;
